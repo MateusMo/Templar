@@ -1,16 +1,4 @@
-# Templar — Rinha de Backend 2026
-
-⠀⠀⠀⠀⢀⡠⣾⣳⡀⠀⠀⠀⠀⠀       
-⠀⠀⡀⠀⠚⢿⣿⣿⡿⠙⠀⠀⠀⠀
-⠀⣘⣿⣇⡀⢘⣿⣿⠀⢀⣠⣶⡀⠀
-⠺⣿⣷⣝⣾⣿⣿⣿⣿⣿⣹⣷⣿⠆
-⠀⠘⠟⠁⠀⠀⣿⣟⠀⠀⠙⠿⠁⠀
-⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢠⣿⣿⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢸⣿⡿⡄⠀⠀⠀⠀⠀
-⠀⠀⠀⠠⣖⣿⣿⣻⡷⡄⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠈⢻⡟⠁⠀⠀⠀⠀⠀
-
+# ✠ Templar — Rinha de Backend 2026 ✠
 
 Detecção de fraude em C11 puro. Zero dependências externas na API (só libc + libpthread).
 
