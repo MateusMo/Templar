@@ -15,13 +15,13 @@
 #define NORM_MAX_MERCHANT_AVG      10000.0f
 
 #define VEC_DIM          14
-#define KNN_K            5
-#define FRAUD_THRESHOLD  0.6f
+#define KNN_K            7
+#define FRAUD_THRESHOLD  0.4f
 #define SENTINEL_NULL   -1.0f   /* dims 5,6 when last_transaction is null */
 
 /* ── IVF index config ──────────────────────────────────────────────────── */
 #define IVF_CLUSTERS     64     /* number of K-means clusters              */
-#define IVF_PROBE        8      /* how many clusters to probe at query time */
+#define IVF_PROBE        32      /* how many clusters to probe at query time */
 #define INDEX_MAGIC      0x54454D50U  /* "TEMP" */
 #define INDEX_VERSION    1
 

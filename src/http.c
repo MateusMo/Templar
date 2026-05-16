@@ -115,20 +115,20 @@ static const char *find_body(const char *buf, int used, int *body_len,
 
 /* ── Response builder ───────────────────────────────────────────────── */
 static int build_fraud_response(FraudResult r, char *out, int out_cap) {
-    /* Compact JSON: {"approved":true,"fraud_score":0.8} */
-    /* fraud_score rounded to 4 decimal places as per spec examples */
+    char body[64];
+    int body_len = snprintf(body, sizeof(body),
+        "{\"approved\":%s,\"fraud_score\":%.4f}",
+        r.approved ? "true" : "false",
+        (double)r.fraud_score);
+
     return snprintf(out, out_cap,
         "HTTP/1.1 200 OK\r\n"
         "Content-Type: application/json\r\n"
         "Content-Length: %d\r\n"
         "Connection: keep-alive\r\n"
         "\r\n"
-        "{\"approved\":%s,\"fraud_score\":%.4f}",
-        /* compute body length first — we know the max size */
-        (int)(sizeof("{\"approved\":false,\"fraud_score\":1.0000}") - 1 + 8),
-        r.approved ? "true" : "false",
-        (double)r.fraud_score);
-    /* Note: snprintf returns the intended length; we use actual. */
+        "%s",
+        body_len, body);
 }
 
 static const char READY_RESP[] =
