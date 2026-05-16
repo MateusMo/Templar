@@ -2,6 +2,8 @@
 
 Detecção de fraude em C11 puro. Zero dependências externas na API (só libc + libpthread).
 
+Inspirado nos Cavaleiros Templários medievais — ordem militar que protegia peregrinos, ouro e rotas comerciais entre a Europa e a Terra Santa. Os templários também desenvolveram mecanismos primitivos de crédito e custódia, considerados por muitos historiadores como precursores do sistema bancário moderno. Assim como a ordem protegia riquezas contra roubos e fraudes nas estradas medievais, o Templar busca detectar transações suspeitas em tempo real com máxima eficiência e mínimo overhead.
+
 ## Estratégia de performance
 
 | Técnica | Impacto |
