@@ -98,10 +98,25 @@ make index
 # Rodar localmente
 ./build/templar_api 9999 4 build/index.bin bench/mcc_risk.json
 ```
-
 ## Tuning
 
 - `IVF_CLUSTERS` (templar.h): mais clusters → busca mais rápida mas K-means mais lento no build
 - `IVF_PROBE` (templar.h): mais probes → mais recall mas mais lento na query
 - `threads` (CMD no Dockerfile): 2 por instância é ótimo com 0.45 CPU cada
 - Para aumentar recall sem perder velocidade: aumentar `IVF_PROBE` de 8 para 12
+
+---
+
+## ✠ Sancte Michael Archangele ✠
+
+> *Sancte Michael Archangele,*  
+> *defende nos in proelio;*  
+> *contra nequitiam et insidias diaboli esto praesidium.*  
+>  
+> *Imperet illi Deus, supplices deprecamur:*  
+> *tuque, Princeps militiae caelestis,*  
+> *Satanam aliosque spiritus malignos,*  
+> *qui ad perditionem animarum pervagantur in mundo,*  
+> *divina virtute in infernum detrude.*  
+>  
+> *Amen.*
