@@ -1,4 +1,4 @@
-#<span style="color:red"> ✠ Templar — Rinha de Backend 2026 ✠
+#<span style="color:red"> ✠ Templar — Rinha de Backend 2026 ✠</span>
 
 Detecção de fraude em C11 puro. Zero dependências externas na API (só libc + libpthread).
 
@@ -107,7 +107,7 @@ make index
 
 ---
 
-##<span style="color:red"> ✠ Sancte Michael Archangele ✠
+##<span style="color:red"> ✠ Sancte Michael Archangele ✠</span>
 
 > *Sancte Michael Archangele,*  
 > *defende nos in proelio;*  
