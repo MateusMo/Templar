@@ -1,0 +1,72 @@
+# =========================
+# CLion / JetBrains
+# =========================
+.idea/
+*.iml
+
+# =========================
+# CMake
+# =========================
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+Makefile
+build.ninja
+.ninja_deps
+.ninja_log
+
+# =========================
+# Binários e objetos C/C++
+# =========================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# =========================
+# Debug / profiling
+# =========================
+*.dSYM/
+gmon.out
+vgcore.*
+core
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Vim / Nano / Emacs
+# =========================
+*~
+*.swp
+*.swo
+
+# =========================
+# Coverage
+# =========================
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# =========================
+# Benchmarks temporários
+# =========================
+bench/build/
