@@ -1,5 +1,5 @@
 # Templar — Rinha de Backend 2026
-
+#
   ,   A           {}
  / \, | ,        .--.
 |    =|= >      /.--.\
